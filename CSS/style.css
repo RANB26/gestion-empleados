@@ -1,0 +1,68 @@
+.btn-info{
+    background-color:skyblue;
+    transition: .15s;
+    border-color: skyblue;
+}
+
+.btn-info:hover{
+    background-color:rgb(120, 182, 211);
+    border-color: rgb(120, 182, 211);
+}
+
+.tabla-filtro-empleados tr th, .tabla-filtro-empleados tr td{
+    text-align: center;
+}
+
+.empleados-registrados{
+    padding: 20px 10px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+}
+
+.div-tabla-empleados{
+    border: 1px solid #D1D1D1;
+    box-shadow: 0 0 8px grey;
+    border-radius: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 600px;
+}
+
+#tabla-empleados {
+    margin-bottom: 0;
+}
+
+#tabla-empleados thead th, #tabla-empleados tbody td{
+    text-align: center;
+}
+
+.info-fin-tabla{
+    color: #636363;
+    margin: 2px;
+    text-align: left;
+}
+
+#form-info-empleado .form-group{
+	margin-bottom: 25px;
+}
+
+#form-info-empleado .form-control{
+	background: #eff1f3;
+	border-color: transparent;
+	font-size: 16px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#form-info-empleado .form-control:disabled {
+    background: #e6e6e6;
+}
+
+#form-info-empleado .form-control:focus{
+	border-color: #00bcd9;
+	-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+}
